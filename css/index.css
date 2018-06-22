@@ -8264,50 +8264,31 @@ h5 {
   text-emphasis: bold;
   font-size: 1rem;
 }
-.container {
-  border: 1px dashed black;
-}
 .carousel {
   width: 100%;
-  border: 1px solid red;
   margin: 0;
-}
-.intro {
-  border: 1px solid red;
-}
-.pictures {
-  border: 1px solid yellow;
 }
 .pictures img {
   align-items: center;
   width: 32%;
   height: 100%;
 }
-.hook {
-  border: 1px solid purple;
-}
-.data {
-  border: 1px solid red;
-}
 .line {
-  border: .5px solid lightgrey;
+  border: .5px solid grey;
   width: 100%;
   margin: 20px 0;
 }
 .walk {
-  border: 1px solid green;
   display: flex;
   align-items: center;
 }
 .walk .space-suit {
-  border: 1px solid blue;
   height: 100%;
   display: flex;
   Justify-content: center;
   align-items: center;
 }
 .close {
-  border: 1px solid green;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -8317,14 +8298,8 @@ h5 {
   padding: 0;
   margin: 0;
 }
-.close form {
-  border: 1px solid purple;
-}
 .close form .form-check label {
   font-size: 1rem;
-}
-.close .list {
-  border: 1px solid black;
 }
 .close .list li {
   font-size: .75rem;
@@ -8339,7 +8314,6 @@ h5 {
   Justify-content: center;
   align-items: center;
   background-color: #f4f4f4;
-  border: 1px solid blue;
 }
 .footer p {
   font-size: .75rem;
