@@ -10,13 +10,15 @@ h1, h2, h3, h4, h5 {
 
 .header {
   background-color: @main-color;
+  h1 {
+    .center;
+  }
   border-bottom: 1px solid grey;
-}
-
-ul a {
-  color: black;
-  text-emphasis: bold;
-  font-size: 1rem;
+  ul a {
+    color: black;
+    text-emphasis: bold;
+    font-size: 1rem;
+  }
 }
 
 .container {
@@ -36,37 +38,20 @@ border: 1px dashed black;
 
 .pictures {
   border: 1px solid yellow;
-}
-.hook {
-border: 1px solid green;
-  // margin-left: 1px;
-  // width: 100%;
-  // padding: 0;
-}
-.pictures img {
-  // width: 300px;
-  align-items: center;
-  width: 32%;
-  height: 100%;
-
-  @media @tablet {
-    flex-wrap: wrap;
+  img {
+    // width: 300px;
+    align-items: center;
+    width: 32%;
+    height: 100%;
   }
 }
-.list {
+
+.hook {
+border: 1px solid purple;
+}
+
+.data{
   border: 1px solid red;
-
-}
-
-.close {
-  border: 1px solid green;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-form {
-  border: 1px solid purple;
 }
 
 .line {
@@ -75,40 +60,53 @@ form {
   margin: 20px 0;
 }
 
-// .walk img {
-//   position:
-// }
-
-li {
-  font-size: .75rem;
-}
-
 .walk {
   border: 1px solid green;
-}
-
-.text {
-  border: 1px solid green;
-}
-.space-suit {
-  border: 1px solid blue;
-  height: 100%;
-  width: 100%;
-}
-.center {
   display: flex;
-  justify-content: center;
   align-items: center;
-}
-.rodeo {
-  font-size: 3rem;
+  .space-suit {
+    border: 1px solid blue;
+    height: 100%;
+    .center;
+    // width: 100%;
+  }
 }
 
-.radio {
-  font-size: 1rem;
+.close {
+  border: 1px solid green;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  .exit-form {
+    padding: 0;
+    margin: 0;
+  }
+  form {
+    border: 1px solid purple;
+    .form-check label {
+      font-size: 1rem;
+    }
+  }
+  .list {
+    border: 1px solid black;
+    li {
+      font-size: .75rem;
+    }
+  }
+  .choice{
+    padding: 15px;
+  }
 }
 
 .footer {
- background-color: @main-color;
- width: 100%;
+  width: 100%;
+  margin: 0;
+  .center;
+  background-color: @main-color;
+  border: 1px solid blue;
+  p {
+   font-size: .75rem;
+  }
+
 }

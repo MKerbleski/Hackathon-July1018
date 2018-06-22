@@ -8254,7 +8254,12 @@ h5 {
   background-color: #f4f4f4;
   border-bottom: 1px solid grey;
 }
-ul a {
+.header h1 {
+  display: flex;
+  Justify-content: center;
+  align-items: center;
+}
+.header ul a {
   color: black;
   text-emphasis: bold;
   font-size: 1rem;
@@ -8273,62 +8278,69 @@ ul a {
 .pictures {
   border: 1px solid yellow;
 }
-.hook {
-  border: 1px solid green;
-}
 .pictures img {
   align-items: center;
   width: 32%;
   height: 100%;
 }
-@media 768px {
-  .pictures img {
-    flex-wrap: wrap;
-  }
-}
-.list {
-  border: 1px solid red;
-}
-.close {
-  border: 1px solid green;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-form {
+.hook {
   border: 1px solid purple;
+}
+.data {
+  border: 1px solid red;
 }
 .line {
   border: .5px solid lightgrey;
   width: 100%;
   margin: 20px 0;
 }
-li {
-  font-size: .75rem;
-}
 .walk {
   border: 1px solid green;
-}
-.text {
-  border: 1px solid green;
-}
-.space-suit {
-  border: 1px solid blue;
-  height: 100%;
-  width: 100%;
-}
-.center {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
-.rodeo {
-  font-size: 3rem;
+.walk .space-suit {
+  border: 1px solid blue;
+  height: 100%;
+  display: flex;
+  Justify-content: center;
+  align-items: center;
 }
-.radio {
+.close {
+  border: 1px solid green;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.close .exit-form {
+  padding: 0;
+  margin: 0;
+}
+.close form {
+  border: 1px solid purple;
+}
+.close form .form-check label {
   font-size: 1rem;
 }
+.close .list {
+  border: 1px solid black;
+}
+.close .list li {
+  font-size: .75rem;
+}
+.close .choice {
+  padding: 15px;
+}
 .footer {
-  background-color: #f4f4f4;
   width: 100%;
+  margin: 0;
+  display: flex;
+  Justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  border: 1px solid blue;
+}
+.footer p {
+  font-size: .75rem;
 }
