@@ -8248,15 +8248,32 @@ h4,
 h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
+  margin-top: 20px;
+}
+* {
+  font-size: 1rem;
+}
+.header {
+  background-color: #f4f4f4;
+  width: 100%;
+  margin: 0 auto;
+}
+ul a {
+  color: black;
 }
 .hook {
   margin-left: 1px;
 }
-form .form-group label {
-  margin-left: -15px;
+.line {
+  border: .5px solid lightgrey;
+  width: 100%;
+  margin: 20px 0;
 }
 button {
   margin-top: 10px;
+}
+li {
+  font-size: .75rem;
 }
 .space-suit {
   max-height: 250px;
@@ -8265,4 +8282,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.footer {
+  background-color: #f4f4f4;
+  width: 100%;
 }
