@@ -8,29 +8,52 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Russo One', sans-serif;
     color: @secondary-color;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
-* {
-  font-size: 1rem;
-  // font: black;
-}
+
 .header {
   background-color: @main-color;
-  width: 100%;
-  margin: 0 auto;
 }
 
+p {
+
+}
 
 ul a {
   color: black;
+  text-emphasis: bold;
+  font-size: 1rem;
 }
+
 .hook {
   margin-left: 1px;
+
+}
+.pictures img {
+  // width: 300px;
+  align-items: center;
+  width: 32%;
+  height: 100%;
+
+  @media @tablet {
+    flex-wrap: wrap;
+  }
+}
+.list {
+  border: 1px solid red;
+
 }
 
-top-banner {
+.close {
+  border: 1px solid green;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 
+form {
+  border: 1px solid purple;
 }
 
 .line {
@@ -39,9 +62,9 @@ top-banner {
   margin: 20px 0;
 }
 
-button {
-  margin-top: 10px;
-}
+// .walk img {
+//   position:
+// }
 
 li {
   font-size: .75rem;
@@ -53,6 +76,13 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.rodeo {
+  font-size: 3rem;
+}
+
+.radio {
+  font-size: 1rem;
 }
 
 .footer {
