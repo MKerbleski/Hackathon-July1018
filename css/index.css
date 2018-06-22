@@ -8249,3 +8249,20 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #22283B;
 }
+.hook {
+  margin-left: 1px;
+}
+form .form-group label {
+  margin-left: -15px;
+}
+button {
+  margin-top: 10px;
+}
+.space-suit {
+  max-height: 250px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
