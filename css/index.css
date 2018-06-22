@@ -8252,14 +8252,29 @@ h5 {
 }
 .header {
   background-color: #f4f4f4;
+  border-bottom: 1px solid grey;
 }
 ul a {
   color: black;
   text-emphasis: bold;
   font-size: 1rem;
 }
+.container {
+  border: 1px dashed black;
+}
+.carousel {
+  width: 100%;
+  border: 1px solid red;
+  margin: 0;
+}
+.intro {
+  border: 1px solid red;
+}
+.pictures {
+  border: 1px solid yellow;
+}
 .hook {
-  margin-left: 1px;
+  border: 1px solid green;
 }
 .pictures img {
   align-items: center;
@@ -8291,8 +8306,16 @@ form {
 li {
   font-size: .75rem;
 }
+.walk {
+  border: 1px solid green;
+}
+.text {
+  border: 1px solid green;
+}
 .space-suit {
-  max-height: 250px;
+  border: 1px solid blue;
+  height: 100%;
+  width: 100%;
 }
 .center {
   display: flex;
